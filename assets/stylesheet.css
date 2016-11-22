@@ -1,0 +1,85 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.product {
+  margin: 20px;
+  text-align: center;
+  align-content: center;
+}
+
+h1 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 42px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.name {
+  font-weight: 800;
+}
+
+.button {
+  background: #3F51B5;
+  width: 100px;
+  cursor: pointer;
+  position: relative;
+  left: 100px;
+}
+
+.button p {
+  color: white;
+}
+
+.banner {
+  height: 50px;
+  background: #3F51B5;
+}
+
+#products {
+  color: white;
+  display: block;
+  float: left;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#cart {
+  color: white;
+  display: block;
+  float: right;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.cartItem {
+  display: flex;
+  align-items: center;
+  height: 250px;
+}
+
+.imageCount {
+  text-align: center;
+  float: left;
+  margin-left: 20px;
+}
+
+.imageCount img {
+  width: 150px;
+  height: auto;
+}
+
+#cartPrice {
+  padding-right: 40px;
+  margin-left: auto; 
+}
+
+.cartName {
+  line-height: 250px;
+  padding-left: 40px;
+
+}
