@@ -1,11 +1,11 @@
 #eCommerce Demo
 
-
+##[Live](http://www.douglasgordon.me/eCommerce-Demo/)
 
 ###Technical Details
 This eCommerce demo was built using JavaScript and jQuery. jQuery allowed for easier manipulation of the DOM as well as a convenient way to read the JSON data. I chose not to use a more significant framework as the project is not large enough to merit it. Although this site uses only used one module, I used webpack to manage dependencies, again for convenience. Much of the layout was done using CSS3 flex boxes due to their ease-of-use and readability.
 
-One particular challenge was adding to the cart. I chose to instantiate the cart as a global variable object. Upon the click of an "add to cart" button, the addToCart function is called, seen below. This function calls the addToTotal function, increasing the total, as well as updating the cart. The cart is an object with product ids as keys and a count of each product as a value. 
+One particular challenge was adding to the cart. I chose to instantiate the cart as a global variable object. Upon the click of an "add to cart" button, the addToCart function is called, seen below. This function calls the addToTotal function, increasing the total, as well as updating the cart. The cart is an object with product ids as keys and a count of each product as a value.
 
 ```javascript
 const addToCart = (e) => {
